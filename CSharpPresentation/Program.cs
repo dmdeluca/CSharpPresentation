@@ -12,13 +12,24 @@
             pt.AddSlide().SetTitle("What is C#?")
                 .AddBullet("talk about .NET")
                 .AddBullet("memory management")
+                .AddBullet("built-in exception handling")
                 .AddBullet("powerful and easy to use");
+
+            pt.AddSlide().SetTitle("What is so great about C#?")
+                .AddBullet("It does its own garbage collection")
+                .AddBullet("It handles its own exceptions")
+                .AddBullet("It is a pure object oriented language")
+                .AddBullet("(Everything is an object)", 2)
+                .AddBullet("It's in demand ($72k globally -> $90k US)")
+                .AddBullet("DANGEOUSLY easy to learn");
 
             pt.AddSlide().SetTitle("Cool things you can do with C#")
                 .AddBullet("Generics")
                 .AddBullet("Interfaces")
                 .AddBullet("LINQ")
                 .AddBullet("Extension methods")
+                .AddBullet("Reflection")
+                .AddBullet("Async/await")
                 .AddBullet("Nullable types");
 
             pt.AddSlide().SetTitle("My favorite libraries")
@@ -40,7 +51,10 @@
                 .AddBullet("Pretty much every WINDOWS app")
                 .AddBullet("Games in UNITY")
                 .AddBullet("StackOverflow (ASP.NET Core)")
+                .AddBullet("Good old MS Visual Studio")
                 .AddBullet("This presentation!");
+
+            pt.AddSlide().SetTitle("Q&A");
 
             pt.Show();
         }

@@ -21,7 +21,7 @@ namespace CSharpPresentation
             return this;
         }
 
-        public Slide AddBullet(string text, byte level = 0)
+        public Slide AddBullet(string text, byte level = 1)
         {
             Contents.Add(new BulletPoint(text, level));
             return this;
@@ -41,7 +41,7 @@ namespace CSharpPresentation
                 content.Display();
                 Console.ReadKey();
             }
-            Console.WriteLine("(end of slide)");
+            Console.WriteLine("\n\n(end of slide)");
             Console.ReadKey();
         }
     }

@@ -7,7 +7,7 @@ namespace CSharpPresentation
         public string Text;
         public byte IndentLevel;
 
-        public BulletPoint(string text, byte indentLevel = 0)
+        public BulletPoint(string text, byte indentLevel)
         {
             Text = text;
             IndentLevel = indentLevel;
