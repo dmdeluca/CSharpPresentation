@@ -27,6 +27,12 @@ namespace CSharpPresentation
             return this;
         }
 
+        public Slide AddHeading(string text)
+        {
+            Contents.Add(new Heading(text));
+            return this;
+        }
+
         public void Display()
         {
             Title.Display();

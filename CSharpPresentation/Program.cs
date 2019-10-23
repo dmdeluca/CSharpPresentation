@@ -7,7 +7,7 @@
             var pt = new Presentation();
 
             pt.AddSlide().SetTitle("What is C#, and why is it amazing?")
-                .AddBullet("By David DeLuca");
+                .AddHeading("By David DeLuca");
 
             pt.AddSlide().SetTitle("What is C#?")
                 .AddBullet("talk about .NET")
